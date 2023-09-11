@@ -22,7 +22,7 @@ struct SplashScreenView: View {
                     Image("COCO")
                         .resizable()
                         .frame(width: 300, height: 300)
-                    Text("Dog Mate")
+                    Text("Fur & Tail")
                         .fontWeight(.black)
                         .foregroundColor(.black)
                         .font(.largeTitle)

@@ -40,7 +40,7 @@
 /* Begin PBXFileReference section */
 		B605DC5028D5FB1200DCEE54 /* MyDogDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDogDetailsView.swift; sourceTree = "<group>"; };
 		B605DC5428D6035B00DCEE54 /* ImagePicker2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker2.swift; sourceTree = "<group>"; };
-		B620648B28CA309A00869BF1 /* SwiftUI_ECA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_ECA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B620648B28CA309A00869BF1 /* FurNTail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurNTail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B620648E28CA309A00869BF1 /* SwiftUI_ECAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ECAApp.swift; sourceTree = "<group>"; };
 		B620649028CA309A00869BF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B620649228CA30A100869BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		B620648C28CA309A00869BF1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B620648B28CA309A00869BF1 /* SwiftUI_ECA.app */,
+				B620648B28CA309A00869BF1 /* FurNTail.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,9 +187,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B620648A28CA309A00869BF1 /* SwiftUI_ECA */ = {
+		B620648A28CA309A00869BF1 /* FurNTail */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B620649928CA30A100869BF1 /* Build configuration list for PBXNativeTarget "SwiftUI_ECA" */;
+			buildConfigurationList = B620649928CA30A100869BF1 /* Build configuration list for PBXNativeTarget "FurNTail" */;
 			buildPhases = (
 				B620648728CA309A00869BF1 /* Sources */,
 				B620648828CA309A00869BF1 /* Frameworks */,
@@ -199,7 +199,7 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUI_ECA;
+			name = FurNTail;
 			packageProductDependencies = (
 				B620649F28CA32C300869BF1 /* FirebaseFirestore */,
 				B62064A128CA32C300869BF1 /* FirebaseFirestoreSwift */,
@@ -208,7 +208,7 @@
 				B6CE9E9928D1821300307D4E /* FirebaseStorage */,
 			);
 			productName = SwiftUI_ECA;
-			productReference = B620648B28CA309A00869BF1 /* SwiftUI_ECA.app */;
+			productReference = B620648B28CA309A00869BF1 /* FurNTail.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -226,7 +226,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B620648628CA309A00869BF1 /* Build configuration list for PBXProject "SwiftUI_ECA" */;
+			buildConfigurationList = B620648628CA309A00869BF1 /* Build configuration list for PBXProject "FurNTail" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -246,7 +246,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B620648A28CA309A00869BF1 /* SwiftUI_ECA */,
+				B620648A28CA309A00869BF1 /* FurNTail */,
 			);
 		};
 /* End PBXProject section */
@@ -474,7 +474,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B620648628CA309A00869BF1 /* Build configuration list for PBXProject "SwiftUI_ECA" */ = {
+		B620648628CA309A00869BF1 /* Build configuration list for PBXProject "FurNTail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B620649728CA30A100869BF1 /* Debug */,
@@ -483,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B620649928CA30A100869BF1 /* Build configuration list for PBXNativeTarget "SwiftUI_ECA" */ = {
+		B620649928CA30A100869BF1 /* Build configuration list for PBXNativeTarget "FurNTail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B620649A28CA30A100869BF1 /* Debug */,
